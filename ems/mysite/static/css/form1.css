@@ -1,0 +1,46 @@
+html {
+    height: 100%;
+    }
+    body {
+    margin:0;
+    padding:0;
+    font-family:'Titillium Web', sans-serif;
+    font-size: .75em;
+    background: #111111;
+    color: white;
+    }
+  input[type=text], input[type=date], input[type=number], input[type=month], input[type=submit] , select{
+    width: 100%;
+    padding: 1.75em 1em;
+    margin: 0px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #222222;
+    color: white;
+    font-size: 1.25em
+  }
+  label{
+    font-weight: bold;
+    padding: 0 0;
+    letter-spacing: .025em;
+    font-size: 1.75em;
+    line-height: 2;
+    position: relative;
+    z-index: 100
+  }
+  div {
+  border-radius: 0px;
+  background-color: #111111;
+  padding: 20px;
+  }
+  button{
+    font: inherit;
+    font-size: 2em;
+    line-height: normal;
+    cursor: pointer;
+    color: white;
+    background: #E8474C;
+    font-weight: bold;
+    margin-left: auto;
+    font-weight: bold;
+  }
